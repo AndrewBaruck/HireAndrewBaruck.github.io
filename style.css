@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2em;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1em;
+}
+
+h1, h2 {
+    color: #650000;
+}
+
+
+ .subscribebutton {
+     background-color: rebeccapurple;
+     color: yellowgreen;
+     border: none;
+     height: 30px;
+     width: 150px;
+     font-size: 20px;
+     border-radius: 15px;
+     cursor: crosshair;
+     vertical-align: top;
+
+ }
+.subscribebutton:hover {
+    background-color: yellowgreen;
+    color: rebeccapurple;
+    border: 1px solid rebeccapurple;
+    font-size: 25px;
+    transition: all 0.2s ease-in-out;
+}
+.subscribebutton:active {
+    background-color: orchid;
+    color: yellowgreen;
+    border: 1px solid yellowgreen;
+    font-size: 15px;
+    transition: all 0.2s ease-in-out;
+
+}
+
+ .joinbutton {
+     background-color: white;
+     border-color: black;
+     border-width: 1px;
+     color: yellowgreen;
+     padding: 5px;
+     font-size: 20px;
+     border-radius: 2px;
+     cursor: pointer;
+     font-family: "Arial Hebrew Scholar";
+     margin-left: 10px;
+     vertical-align: top;
+ }
+.paragraph
+{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    terxt-align: center;
+    width: 25%;
+    color: #184870;
+    margin-left: 10px;
+    vertical-align: top;
+    line-height: 24px;
+}
+.shop
+{
+    font-family: Arial;
+    font-size: 14px;
+    text-align: center;
+    color: whitesmoke;
+
+    line-height: 24px;
+    background-color: #bc0000;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+.underline{
+
+}
+.underline:hover {
+    text-decoration: underline;
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
